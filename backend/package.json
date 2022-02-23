@@ -1,0 +1,22 @@
+{
+  "name": "drive-o-sid-backend",
+  "version": "1.0.0",
+  "description": "your notebook on cloud",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
